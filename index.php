@@ -1,6 +1,13 @@
+	<!--Include the header.php-->
 	<?php
 	include_once 'header.php';
 	?>
+	<!--
+	File Name: index.php
+	Author's Name: Sukhdeep Singh
+	Website Name: My Portfolio
+	Desc : this is a index.php file which is the home page of the website.
+	-->
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
@@ -58,7 +65,8 @@
 			such as Java,C#,C,C++ and the Web oriented Languages such as HTML5,CSS3,PHP,JavaScript. While I find the Visual element 
 			of the Web very attractive, visually Stunning and engaging, the System Programming enables me to create powerful
 			System and Mobile Apps.</p>
-		
+			
+		<!-- Keep Connected Panel-->
 		<div id="connect_panel">
 		<h4>Keep Connected...</h4>
 		<a class="connect_icons" href="https://www.facebook.com/Sukh9212" target="_blank"><div id="icons" data-icon="a"></div></a>
@@ -67,6 +75,7 @@
 		<a class="connect_icons" href="http://www.youtube.com/channel/UCVamaOWXDn0HdEZCJj5595Q" target="_blank"><div id="icons" data-icon="d"></div></a>
 		<a class="connect_icons" href="https://github.com/Sukh9212" target="_blank"><div id="icons" data-icon="e"></div></a>
 		</div>
+		<!--include the footer.php page-->
     <?php
     include_once 'footer.php';
     ?>
