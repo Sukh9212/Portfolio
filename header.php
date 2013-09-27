@@ -1,3 +1,10 @@
+<!--
+	File Name: header.php
+	Author's Name: Sukhdeep Singh
+	Website Name: My Portfolio
+	Desc : This is a header file that includes commen elements required in each page of website 
+			such as starting html tags(!Doctype,html,head,body), css and font links, and a nav bar which will be similar in each page.
+	-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,10 +30,12 @@
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
   </head>
+  
+  <!-- Inline Script for Showing the active page in the nav bar-->
   <script>
      $(function() {
-        $('#nav li a').click(function() {
-           $('#nav li').removeClass();
+        $('.navbar-nav li a').click(function() {
+           $('.navbar-nav li').removeClass();
            $($(this).attr('href')).addClass('active');
         });
      });
@@ -45,11 +54,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <img class="navbar-brand" src="img/developer.jpg" width="100" height="80"/>
+              <img class="navbar-brand" src="img/developer.jpg" width="80" height="70"/>
               <a class="navbar-brand" href="#">My Portfolio</a>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav" id="nav">
+              <ul class="nav navbar-nav">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Me</a></li>
                 <li><a href="projects.php">Projects</a></li>
