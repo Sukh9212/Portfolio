@@ -17,10 +17,12 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="img/web.jpg" width="180" height="180" alt="Web image">
-          <h2>Web Development</h2>
-          <p>Web is the most alive platform for Developers and Designers. I specialize in Languages such as HTML5, CSS3, PHP, JavaScript, jQuery etc.
-          	With some designing abilities I can build basic websites to content managed websites using php with database connectivity as a backhand for the page content.
-          	I can build Sites with respnosive design adapting to various viewport sizes and devices which is the essential for any website.</p>
+			<h2>Web Development</h2>
+			<p>
+				Web is the most alive platform for Developers and Designers. I specialize in Languages such as HTML5, CSS3, PHP, JavaScript, jQuery etc.
+				With some designing abilities I can build basic websites to content managed websites using php with database connectivity as a backhand for the page content.
+				I can build Sites with respnosive design adapting to various viewport sizes and devices which is the essential for any website.
+			</p>
           <p><a class="btn btn-default" href="projects.php#ab">View Work &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         
