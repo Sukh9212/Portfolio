@@ -373,6 +373,7 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
+  font-weight: 300;
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
@@ -557,7 +558,7 @@ h6,
 .h5,
 .h6 {
 	font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter;
+    font-weight: 200;
     color: #1f8dd6;
   	line-height: 1.1;
 }
@@ -592,7 +593,7 @@ h6 small,
 .h4 small,
 .h5 small,
 .h6 small {
-  font-weight: normal;
+  font-weight: 200;
   line-height: 1;
   color: #999999;
 }
