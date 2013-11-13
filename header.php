@@ -23,7 +23,8 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 				mobile_prefix : "http"
 			});
 		</script>
-
+		<!-- fotorama.css-->
+		<link  href="http://fotorama.s3.amazonaws.com/4.4.6/fotorama.css" rel="stylesheet">
 		<!-- Bootstrap core CSS -->
 
 		<link href="css/bootstrap.css" rel="stylesheet">
@@ -36,6 +37,7 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 
 		<!-- Custom styles for this template -->
 		<link href="css/carousel.css" rel="stylesheet">
+
 	</head>
 
 	<!-- NAVBAR
@@ -52,8 +54,8 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<img class="navbar-brand" src="img/developer.jpg" width="80" height="70"/>
-							<a class="navbar-brand" href="#">My Portfolio</a>
+							<img class="navbar-brand" src="img/logo.png" width="80" height="70"/>
+							<a class="navbar-brand" href="index.php">My Portfolio</a>
 						</div>
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav">
