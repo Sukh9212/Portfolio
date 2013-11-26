@@ -379,6 +379,17 @@ body {
   background-color: #ffffff;
 }
 
+th{
+  	font-size:200%;
+  	
+  }
+  td{
+  	font-size:170%;
+  	padding-top: 20px;
+}
+.padded{
+	padding-left: 10%;
+}
 input,
 button,
 select,
@@ -6382,6 +6393,13 @@ body.modal-open,
 	.about{
 		padding-left: 0px;
 	}
+	th{
+  	font-size:150%; 	
+  }
+  td{
+  	font-size:120%;
+  	padding-top: 20px;
+}
   @-ms-viewport {
     width: 320px;
   }

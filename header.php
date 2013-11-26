@@ -26,8 +26,10 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 		<!-- fotorama.css-->
 		<link  href="http://fotorama.s3.amazonaws.com/4.4.6/fotorama.css" rel="stylesheet">
 		<!-- Bootstrap core CSS -->
-
+			
 		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/login.css" rel="stylesheet">
+	
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -37,15 +39,17 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 
 		<!-- Custom styles for this template -->
 		<link href="css/carousel.css" rel="stylesheet">
-
+		<script src="js/bootbox.js"></script>
 	</head>
 
 	<!-- NAVBAR
 	================================================== -->
 	<body>
+		
 		<div class="navbar-wrapper">
+			
 			<div class="container">
-
+				
 				<div class="navbar navbar-inverse navbar-static-top">
 					<div class="container">
 						<div class="navbar-header">
@@ -76,6 +80,9 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 								</li>
 								<li>
 									<a href="contact.php">Contact Me</a>
+								</li>
+								<li>
+									<a href="login.php">Business Contacts</a>
 								</li>
 							</ul>
 						</div>

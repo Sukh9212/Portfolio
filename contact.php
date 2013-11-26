@@ -22,7 +22,7 @@
 	<h4>Keep Connected...</h4>
 		<a class="connect_icons" href="https://www.facebook.com/Sukh9212" target="_blank"><div id="icons" data-icon="a"></div></a>
 		<a class="connect_icons" href="https://twitter.com/Sukh9212" target="_blank"><div id="icons" data-icon="b"></div></a>
-		<a class="connect_icons" href="ca.linkedin.com/pub/sukhdeep-singh/74/309/574/" target="_blank"><div id="icons" data-icon="c"></div></a>
+		<a class="connect_icons" href="http://ca.linkedin.com/pub/sukhdeep-singh/74/309/574/" target="_blank"><div id="icons" data-icon="c"></div></a>
 		<a class="connect_icons" href="http://www.youtube.com/channel/UCVamaOWXDn0HdEZCJj5595Q" target="_blank"><div id="icons" data-icon="d"></div></a>
 		<a class="connect_icons" href="https://github.com/Sukh9212" target="_blank"><div id="icons" data-icon="e"></div></a>
 		</div>

@@ -20,11 +20,17 @@ Desc : This is a footer file that includes all the footer information which is r
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/holder.js"></script>
 <script src="js/bootstrap.js"></script>
 <!-- fotorama js-->
 <script src="http://fotorama.s3.amazonaws.com/4.4.6/fotorama.js"></script>
+<!-- bootbox code -->
+<script src="js/bootbox.js"></script>    
+    <script>
+        $(document).on("click", ".alert", function(e) {
+           bootbox.alert(<?php echo 'Name: ' . $row['name'];?>);
+            });
+    </script>
 </body>
 </html>
