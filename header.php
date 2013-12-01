@@ -63,9 +63,7 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 						</div>
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav">
-								<li>
-									<a href="index.php">Home</a>
-								</li>
+								
 								<li>
 									<a href="about.php">About Me</a>
 								</li>

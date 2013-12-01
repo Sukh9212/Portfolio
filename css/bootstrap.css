@@ -4631,7 +4631,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
+  background-color:#222222;
   border-color: #080808;
 }
 
@@ -5594,6 +5594,7 @@ a.list-group-item:focus {
   color: #ffffff;
   background-color: #428bca;
   border-color: #428bca;
+  font-size: 150%;
 }
 
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
