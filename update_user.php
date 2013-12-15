@@ -21,7 +21,7 @@ File Description: This page takes the input from the edit.php page and makes the
                     header('Location:login.php');
             }
             else {
-                $conn = mysqli_connect('webdesign4', 'db200245935', '37949', 'db200245935') or die('Error connecting to MySQL server.');
+                $conn = mysqli_connect('webdesign4', 'dbxxxxxxxxx', 'xxxxx', 'dbxxxxxxxx') or die('Error connecting to MySQL server.');
                 $email = $_POST['email'];
                 $id = $_POST['id'];
                 //make sure the id is valid numeric
