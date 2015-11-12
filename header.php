@@ -1,3 +1,10 @@
+<?php
+  header("Cache-Control: max-age=2592000");
+
+ $offset = 60 * 60 * 24 * 3;
+ $ExpStr = "Expires: " . gmdate("D, d M Y H:i:s", time() + $offset) . " GMT";
+ Header($ExpStr);
+?>
 <!--
 File Name: header.php
 Author's Name: Sukhdeep Singh
@@ -10,13 +17,14 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="description" content="Sukhdeep Singh Web Portfolio, Sukhdeep Singh Web Developer, Sukhdeep Singh Full Stack Developer, Sukhdeep Singh Barrie, Sukhdeep Singh Georgian College">
+		<meta name="author" content="Sukhdeep Singh">
+		<meta name="theme-color" content="#3F51B5">
 		<link rel="shortcut icon" href="img/favicon.png">
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+	<!--	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>-->
 
-		<title>Sukhdeep Singh</title>
-		<script src="js/redirection-mobile.js"></script>
+		<title>Sukhdeep Singh - Full Stack Developer</title>
+<!--		<script src="js/redirection-mobile.js"></script>
 		<script>
 			SA.redirection_mobile({
 				mobile_url : "webdesign4.georgianc.on.ca/~200245935/advweb/portfolioMobile/",
@@ -24,11 +32,13 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 			});
 		</script>
 		<!-- fotorama.css-->
-		<link  href="http://fotorama.s3.amazonaws.com/4.4.6/fotorama.css" rel="stylesheet">
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet">
 		<!-- Bootstrap core CSS -->
 			
 		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/login.css" rel="stylesheet">
+		<link href="css/print.css" rel="stylesheet" media="print">
+		<link href="css/desktop.css" rel="stylesheet" media="(min-width: 768px)">
+		<link href="css/mobile.css" rel="stylesheet" media="(max-width: 768px)">
 	
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -39,13 +49,13 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 
 		<!-- Custom styles for this template -->
 		<link href="css/carousel.css" rel="stylesheet">
-		<script src="js/bootbox.js"></script>
+		<script async src="js/bootbox.js"></script>
 	</head>
 
 	<!-- NAVBAR
 	================================================== -->
 	<body>
-		
+		<header>
 		<div class="navbar-wrapper">
 			
 			<div class="container">
@@ -58,7 +68,6 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<img class="navbar-brand" src="img/logo.png" width="80" height="70"/>
 							<a class="navbar-brand" href="index.php">My Portfolio</a>
 						</div>
 						<div class="navbar-collapse collapse">
@@ -89,4 +98,5 @@ such as starting html tags(!Doctype,html,head,body), css and font links, and a n
 
 			</div>
 		</div>
+		</header>
 
