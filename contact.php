@@ -1,6 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 include_once 'header.php';
+include_once 'config/config.php';
 ?>
 <!--
 File Name: contact.php
@@ -23,9 +24,7 @@ $data = htmlspecialchars($data);
 return $data;
 }
 
-//Sendgrid Login credentials
-$username = 'azure_05257da9c707444ca60d20778077daf0@azure.com';
-$password = 'MaA3K6Y7Ji9t1rG';
+
 
 //Define variables and set to empty values
 $nameErr = $emailErr = "";
@@ -51,7 +50,7 @@ $email = test_input($_POST["inputEmail"]);
 if (!((empty($name)) and (empty($email))))
 {
 
-$sendgrid = new SendGrid($username, $password);
+$sendgrid = new SendGrid($config['sendgrid_username'], $config['sendgrid_password']);
 $gridEmail = new SendGrid\Email();
 $gridEmail->addTo('sukhdeepsaini12@gmail.com')->
 
